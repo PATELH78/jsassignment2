@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+<title>Task-3</title>
+<script>
+  
+  var total = 0;
+
+  function addMe(x) {
+    total += x; 
+  }
+
+  addMe(72);
+  addMe(67);
+  addMe(107);
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var resultElement = document.getElementById("result");
+    resultElement.innerHTML = "Total: " + total;
+  });
+</script>
+</head>
+<body>
+  <h1>The Result of Add me Function Is :</h1>
+  <div id="result"></div>
+</body>
+</html>
